@@ -20,7 +20,7 @@
     "source": "https://github.com/treblle/runtime-php"
   },
   "require": {
-    "php": "^8.3",
+    "php": "^8.2",
     "php-http/discovery": "^1.19",
     "psr/http-message": "^2.0",
     "psr/http-factory": "^1.1"

@@ -16,7 +16,8 @@ use Psr\Http\Message\StreamInterface;
  */
 final readonly class CloudEvent
 {
-    public const string SPEC_VERSION = '1.0';
+    /** @var string  */
+    public const SPEC_VERSION = '1.0';
 
     /**
      * @param string $id Identifies the event. Producers MUST ensure that source + id is unique for each distinct event. If a duplicate event is re-sent (e.g. due to a network error) it MAY have the same id. Consumers MAY assume that Events with identical source and id are duplicates.
